@@ -7,7 +7,7 @@ function Human(name, age, lastJob) {
    this.lastJob=lastJob || "неизвестно";
    this.who=function(){
      // let only in this {}
-     let tempInfo = ['Имя:', this.name, '.Возраст:', this.age, '.Прежнее место работы:', this.lastJob].join(''); // = 'first name';
+     let tempInfo = ['Имя:', this.name, '.Возраст:', this.age, '.Прежнее место работы:', this.lastJob].join('');
     console.log(tempInfo);
    };
 }
@@ -50,10 +50,6 @@ for (let i=0; i<human.length; i++){
   }
   }
 };
-
-//if (timer > 1){
-//  console.log("очень, очень плохо");
-//}
 
 // closure
 function evaluationEnglish(englishLevel){
