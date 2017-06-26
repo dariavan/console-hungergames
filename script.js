@@ -54,6 +54,13 @@ for (let i=0; i<human.length; i++){
 // closure
 function evaluationEnglish(englishLevel){
     let tempValue = englishLevel;
+    // let levelMatcher = {
+    //   A1: 5,
+    //   B2: 9,
+    //   C1: 11
+//   };
+//    let tempValue = levelMatcher[englishLevel] ? levelMatcher[englishLevel] : 0;
+
     switch(englishLevel){
     	case 'A2': tempValue=5;
     	break;
